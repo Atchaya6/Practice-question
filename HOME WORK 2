@@ -1,0 +1,93 @@
+QUESTION 1.
+
+import java.lang.System;
+import java .util. Scanner;
+class main{
+      public static void main (String[]args){
+        Scanner jayakumari=new Scanner(System.in);
+        int a=jayakumari.nextInt();
+        int b=jayakumari.nextInt();
+        int c=jayakumari.nextInt();
+        int d=(a*b*c);
+        int e=a+b+c;
+        System.out.println(d/e);
+    }
+  }
+QUESTION 2.
+
+import java.util.Scanner;
+public class guna{
+ public static void main(String args[])
+    {
+        Scanner ip = new Scanner(System.in);
+        String red = "stop";
+        String yellow = "get ready";
+        boolean green = "GO";
+        if(red)
+        {
+            System.out.print("stop");
+        }
+        if(yellow){
+            System.out.print("GET READY");
+        }
+        if(green){
+            System.out.print("GO");
+        }
+    }
+}
+
+QUESTION 3.
+
+import java.util.Scanner;
+class atchaya{
+    public static void main(String args[])
+    {
+        String RCB= "win";
+        String RCB = "lose";
+        if(RCB.equal("win"))
+        {
+            System.out.print("Easala cup namdhey");
+        }
+        else{
+            System.out.print("No cup");
+        }
+    }
+}
+QUESTION 4.
+
+import java.util.Scanner;
+public class asus{
+     public static void main(String[]args)
+    {
+        // get input for size of an array
+        Scanner ip = new Scanner(System.in);
+        int size = ip.nextInt();
+        int []mark= new int[size];
+        for (int i = 0;i<=size-1;i++);
+        {
+            mark[i] = ip.nextInt();
+        }
+    }
+}
+
+QUESTION 5.
+
+import java.util.Scanner;
+public class aa{
+    public static void main(String []args)
+    {
+        for(int i = 1;i<=2;i++)
+        for(int j=1;j<=2;j++)
+        {
+            System.out.println("Atchaya");
+        }
+    }
+}
+
+
+
+
+
+
+    
+
