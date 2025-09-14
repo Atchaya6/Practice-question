@@ -1,0 +1,179 @@
+1.IF ELSE IF PROGRAM?
+
+import java.util.Scanner;
+public class guna{
+ public static void main(String args[])
+    {
+        Scanner ip = new Scanner(System.in);
+        String red = "stop";
+        String yellow = "get ready";
+        boolean green = "GO";
+        if(red)
+        {
+            System.out.print("stop");
+        }
+        if(yellow){
+            System.out.print("GET READY");
+        }
+        if(green){
+            System.out.print("GO");
+        }
+    }
+}
+
+  QUESTION 2.
+
+import java.util.Scanner;
+class sri{
+    public static void main(String[]args)
+    {
+        Scanner ip = new Scanner(System.in);
+        int[]mark = new int[3];
+        for(int i = 0,i<=2,i++);
+        mark[i] = ip.nextInt();
+    }
+    System.out.println(mark[0]);
+    System.out.println(mark[1]);
+    System.out.println(mark[3]);
+}
+QUESTION 3.
+
+import java.util.Scanner;
+public class vadi{
+  public static void main(String args[])
+  {
+    Scanner ip = new Scanner(System.in);
+    System.out.println("number 1:");
+    int a =ip.nextInt();
+    System.out.println("number2:");
+    int b = ip.nextInt();
+
+    for(int i =2;i<=9;i++)
+    {
+    System.out.println(+i);
+    }
+  }
+}
+
+QUESTION 4.
+
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+class vedha {
+   vedha() {
+   }
+
+   public static void main(String[] var0) {
+      byte var1 = 34;
+      byte var2 = 45;
+      if (var1 > var2) {
+         System.out.println("a is greater");
+      } else {
+         System.out.print("b is greater");
+      }
+
+   }
+}
+
+QUESTION 5.
+
+import java.util.Scanner;
+ public class vedha{
+   public static void main(String args[])
+   {
+      Scanner ip = new Scanner(System.in);
+      int salary = ip.nextInt();
+      int age = ip.nextInt();
+      if (salary>=20,000 ||age<25 )
+      {
+         System.out.print("Eligiable foe loan");
+      }
+      else{
+         System.out.print("No loan");
+      }
+QUESTION 6.
+
+class hema{
+    public static void main (String args[]){
+        System.out.print("hello world");
+    }
+}
+QUESTION 7.
+
+import java.util.Scanner;
+public class pothu{
+    public static void main(String args[])
+    {
+        // hungry + icecream = eat;
+        boolean Hungry = "True";
+        boolean Icecream ="True";
+        if(Hungry && Icecream)
+        {
+            System.out.print("Eat");
+        }
+        else{
+            System.out.println("not Eat");
+        }
+    }
+}
+QUESTION 8.
+
+import java.util.Scanner;
+public class atchaya{
+ public static void main(String args[])
+    {
+        int score = 68;
+        if(score<50);
+        {
+            System.out.print("Need to improve");
+        }
+        elseif(score>=50 && score<=70)
+        {
+         System.out.print("Good job");
+        }
+        elseif{
+            System.out.print("Excellent");
+        }
+    }
+}
+QUESTION 9.
+
+import java.util.Scanner;
+class main{
+    public static void main(String args[])
+    {
+        // cricket or football = play
+        boolean cricket = true;
+        boolean football = true;
+        if(cricket && football)
+        {
+            System.out.print("Play");
+        }
+        else{
+            System.out.print("Dont paly");
+        }
+    }
+}
+QUESTION 10.
+
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+class main {
+   main() {
+   }
+
+   public static void main(String[] var0) {
+      byte var1 = 12;
+      long var2 = 234567L;
+      System.err.println(var1);
+      System.out.print(var2);
+   }
+}
+
+
+
+
+
+
+
+
+
+
